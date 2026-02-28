@@ -1,0 +1,7 @@
+spring:
+    application: 
+        name: registration
+
+mail:
+    host: nabgha@dev.com
+    port: 8090
