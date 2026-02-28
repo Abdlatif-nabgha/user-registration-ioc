@@ -6,7 +6,7 @@ public class User {
     private String password;
     private String user;
 
-    public User(String user, String email, long id, String password) {
+    public User(long id, String email, String password, String user) {
         this.user = user;
         this.email = email;
         this.id = id;
@@ -48,9 +48,9 @@ public class User {
     @Override
     public String toString() {
         return "[id: " + id +
-                "email: " + email +
-                "password: " + password +
-                "user: " + user + "]";
+                ", email: " + email +
+                ", password: " + password +
+                ", user: " + user + "]";
     }
 
 

@@ -1,5 +1,8 @@
 package com.nabgha.registration;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class UserService {
     UserRepository userRepository;
     NotificationService notificationService;
